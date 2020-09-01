@@ -10,6 +10,7 @@ fi
 
 git checkout gh-pages
 cp index.html cover.css ./site
+git add *
 git commit -a -m "$1"
 git push origin gh-pages
 git checkout master
