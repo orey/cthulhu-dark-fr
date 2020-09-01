@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #222;
 }
 
 body {
@@ -109,6 +109,11 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+h1 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
 h2 {
     text-align: left;
     padding-top: 50px;
@@ -132,3 +137,10 @@ p.padding {
     /*padding-top: 50px;*/
     font-size: 12px;
 }
+
+img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
