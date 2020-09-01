@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #222;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   justify-content: center;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);*/
 }
 
 .cover-container {
@@ -55,7 +55,7 @@ body {
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .nav-masthead .nav-link {
@@ -82,7 +82,8 @@ body {
 
 @media (min-width: 48em) {
   .masthead-brand {
-    float: left;
+      float: left;
+      font-size: 20px
   }
   .nav-masthead {
     float: right;
@@ -109,9 +110,21 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+/*
+ * Perso
+ */
+
+
+h1 {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
 h2 {
     text-align: left;
     padding-top: 50px;
+    color: red;
 }
 
 p.lead {
@@ -119,16 +132,28 @@ p.lead {
     /* background-color: white; */
 }
 
-p.mytexte {
+p.grey {
     text-align: left;
-    color: white;
+    color: grey;
+}
+
+p.mytexte {
+    text-align: center;
+    color: grey;
+    padding-top: 40px;
+    font-size: 12px;
 }
 
 ul li {
     text-align: left;
 }
 
-p.padding {
-    /*padding-top: 50px;*/
-    font-size: 12px;
+img {
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
+
+a {
+    color: lightblue;
+}
+
