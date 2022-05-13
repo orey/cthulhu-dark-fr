@@ -7,14 +7,20 @@
 \usepackage[a4paper,margin=1in,portrait]{geometry}
 
 \usepackage[table]{xcolor}
-\definecolor{lightgray}{gray}{0.15}
-\definecolor{verylightgray}{gray}{0.05}
+\definecolor{lightgray}{gray}{0.85} % white version
+\definecolor{verylightgray}{gray}{0.95} % white version
 \let\oldtabular\tabular
 \let\endoldtabular\endtabular
 \renewenvironment{tabular}{\small\rowcolors{1}{lightgray}{verylightgray}\oldtabular}{\endoldtabular}
 
+\usepackage{comment}
+
+
 % TODO 1bis. Change background color
 \usepackage{background}
+\backgroundsetup{contents={}}
+
+\begin{comment} % for black version
 \backgroundsetup{
 scale=1,
 angle=0,
@@ -27,11 +33,10 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 % TODO 1ter. Change font color
 %\definecolor{bookColor}{cmyk}{0	, 0  , 0   , 0.90}  % 0.90\% of black
 \color{white}
+\end{comment}
 
 % Pour le bas de page
 \newcommand{\mysmallgray}[1]{\tiny\color{gray!95}#1}
-
-\usepackage{comment}
 
 % Pour le strikethrough
 %\usepackage{ulem}
@@ -54,7 +59,7 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 \newcommand{\mysubject}{Jeu de rôles}
 \newcommand{\mykeywords}{JDR,TTRPG,RPG,orey,cthulhu,lovecraft,horreur}
 \newcommand{\myversion}{1.0}
-\newcommand{\mycolor}{green}
+\newcommand{\mycolor}{teal}
 
 % PDF
 \usepackage{hyperref}
@@ -63,8 +68,8 @@ contents={\begin{tikzpicture}[remember picture,overlay]
   pdftitle={\mytitle},
   pdfauthor={\myauthor},
   colorlinks=true,
-  linkcolor=yellow,
-  urlcolor=yellow,
+  linkcolor=red, % white version
+  urlcolor=red, % white version
   pdfsubject={\mysubject},
   pdfkeywords ={\mykeywords},
   pdfstartview={FitH},
@@ -118,13 +123,7 @@ contents={\begin{tikzpicture}[remember picture,overlay]
 
 %=======================================DOC
 \begin{document}
-\pagestyle{empty}
-\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center)
-{\includegraphics[width=\paperwidth,height=\paperheight]{CthulhuDark-a4.png}};
-\clearpage
 
-%=======================================
 \input{content.tex}
-
 
 \end{document}
