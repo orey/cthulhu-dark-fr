@@ -10,7 +10,7 @@ Voir aussi : https://orey.github.io/cthulhu-dark-f
 
 <table>
 <tr><td><img src="proj.png"></td>
-<td><h3>Cthulhu Dark JDR en français<h3><br>
+<td><b>Cthulhu Dark JDR en français</b><br>
 by <a href="https://rouboudou.itch.io">rouboudou</a><br>
 Cthulhu Dark, le jeu de rôles en français<br>
 <a href="https://rouboudou.itch.io/cthulhu-dark-fr"><img src="download.png"></a><br>
