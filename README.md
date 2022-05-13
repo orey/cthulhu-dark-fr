@@ -9,7 +9,7 @@ Le PDF est dans le folder "_release" ou sur Itch.
 Voir aussi la page html : https://orey.github.io/cthulhu-dark-fr
 
 <table>
-<tr><td><img src="proj.png"></td>
+<tr><td><a href="https://rouboudou.itch.io/cthulhu-dark-jdr"><img src="proj.png"></a></td>
 <td><b>Cthulhu Dark JDR en français</b><br>
 by <a href="https://rouboudou.itch.io">rouboudou</a><br>
 Cthulhu Dark, le jeu de rôles en français<br>
