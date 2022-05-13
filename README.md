@@ -4,9 +4,9 @@ Une traduction fidèle du jeu de Graham Walmsley. Un système de jeu hyper simpl
 
 Attention: la folie vous guette.
 
-Le PDF est dans le folder "_release" ou sur [[https://rouboudou.itch.io][Itch]].
+Le PDF est dans le folder "_release" ou sur Itch.
 
-Voir aussi : https://orey.github.io/cthulhu-dark-f
+Voir aussi la page html : https://orey.github.io/cthulhu-dark-f
 
 <table>
 <tr><td><img src="proj.png"></td>
