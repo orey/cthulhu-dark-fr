@@ -6,7 +6,7 @@ Attention: la folie vous guette.
 
 Le PDF est dans le folder "_release" ou sur Itch.
 
-Voir aussi la page html : https://orey.github.io/cthulhu-dark-f
+Voir aussi la page html : https://orey.github.io/cthulhu-dark-fr
 
 <table>
 <tr><td><img src="proj.png"></td>
