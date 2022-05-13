@@ -1,9 +1,0 @@
-* Cthulhu Dark
-
-Une traduction fidèle du jeu de Graham Walmsley. Un système de jeu hyper simple pour jouer sans préparation à des aventures dans le Mythe de Cthulhu.
-
-Attention: la folie vous guette.
-
-Le PDF est dans le folder "_release" ou sur [[https://rouboudou.itch.io][Itch]].
-
-Voir aussi : https://orey.github.io/cthulhu-dark-fr
